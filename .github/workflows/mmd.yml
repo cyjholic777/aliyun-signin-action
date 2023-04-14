@@ -1,4 +1,4 @@
-name: Aliyun Signin
+name: MMD Aliyun Signin
 
 on:
   schedule:
