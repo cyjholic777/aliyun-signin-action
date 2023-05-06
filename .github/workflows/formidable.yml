@@ -2,8 +2,9 @@ name: Formidable Aliyun Signin
 
 on:
   schedule:
-   # 每天国际时间 14:40 运行一次, 中国时间 22:40
+    # 中国时间 10 点和 16 点
     - cron: '0 2 * * *'
+    - cron: '0 10 * * *'
   workflow_dispatch:
 jobs:
   signin:
